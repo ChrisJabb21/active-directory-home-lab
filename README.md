@@ -7,20 +7,23 @@ This beginner-friendly lab walks you through installing and configuring Active D
 
 ## Setup using Silicon M1-M4 MacOS processers
 
-Hypervisors that can be used doesn't matter (some have different caveats and features
+Hypervisors that can be used doesn't matter (some have different caveats and features)
  - VirtualBox or VMWare Fusion, you can use either one
  - VMWare Fusion offers weirdly easier way to get a Windows 11 pro or enterprise ISO file that works for MacOS.
 
 Anyone using MacOS computers after Apple transitioned from Intel-based processors to Silicon ARM M1-M4 will face troubles running the Windows Server 19 Evaluation ISO file
  - Users have requested for an ARM-compatible iso file but isn't available in Windows Evaluation Center or Insider Program. 
 
-Some resources have workarounds: 
+Workarounds for Windows Server ARM64 compatiblity: 
 
 - workaround 1: using UTM to emulate Windows Server 2019 so it can interact with your virtualized Windows pro 10 or 11 client. Window 11 is used for this example. 
 
 - workaround 2:
   - using UUP Dump to get an ARM64 iso (alot of technical steps involved that may be overwhelming and confusing)
-    - involves installation of multi-protocol & multi-source command-line download utility [aria2](https://aria2.github.io/)      
+    - involves installation of multi-protocol & multi-source command-line download utility [aria2](https://aria2.github.io/)
+    - There are builds of 2025 Windows Server with ARM64 which can also be looked into
+      - This forum post goesinto more details https://forums.macrumors.com/threads/windows-server-2025-arm-on-mac.2423766/ 
+   
 
 
 Resources for the workarounds:
