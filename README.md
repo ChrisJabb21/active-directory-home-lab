@@ -5,7 +5,7 @@ Spin up your own mini enterprise IT environment — all from a single machine.
 This beginner-friendly lab walks you through installing and configuring Active Directory, DNS, DHCP, Group Policy, and more using VMware Workstation Pro. No prior Virtual Machine or Active Directory experience needed.
 
 
-## 🍎💻 Setup using Silicon M1-M4 MacOS
+## 🍎💻 Lab Setup using Silicon M1-M4 MacOS
 
 Hypervisors that can be used doesn't matter (some have different caveats and features)
  - VirtualBox or VMWare Fusion, you can use either one
@@ -65,11 +65,11 @@ Resources for the workarounds:
 
 This project is divided into two parts:
 
-### 🔧 [Lab Setup Guide](./lab-setup-guide.md)
+### 🪟🔧 [Lab Setup Guide](./lab-setup-guide.md)
 🚧 Set up your lab environment from scratch using VMware Workstation Pro.
 
-### 🔧 [Lab Setup Guide for MacOS workaround 1](./silicon-mac-lab-setup-guide.md)
-🚧 Set up your lab environment on your MacOS from scratch using VMware Fusion.
+### 🍎🔧 [Lab Setup Guide for MacOS workaround 1](./placeholder-silicon-mac-lab-setup-guide.md)
+🚧 Set up your lab environment on your MacOS from scratch using VMware Fusion and UTM.
 
 ### 🎯 [Active Directory Tasks Walkthrough](./ad-basic-tasks.md)
 💡 Practice managing users, groups, OUs, and GPOs!
