@@ -5,16 +5,17 @@ Spin up your own mini enterprise IT environment — all from a single machine.
 This beginner-friendly lab walks you through installing and configuring Active Directory, DNS, DHCP, Group Policy, and more using VMware Workstation Pro. No prior Virtual Machine or Active Directory experience needed.
 
 
-## Setup using Silicon M1-M4 MacOS processers
+## 🍎💻 Setup using Silicon M1-M4 MacOS
 
 Hypervisors that can be used doesn't matter (some have different caveats and features)
  - VirtualBox or VMWare Fusion, you can use either one
  - VMWare Fusion offers weirdly easier way to get a Windows 11 pro or enterprise ISO file that works for MacOS.
 
 Anyone using MacOS computers after Apple transitioned from Intel-based processors to Silicon ARM M1-M4 will face troubles running the Windows Server 19 Evaluation ISO file
- - Users have requested for an ARM-compatible iso file but isn't available in Windows Evaluation Center or Insider Program. 
+ - Users have requested for an ARM-compatible iso file but isn't available in Windows Evaluation Center or Insider Program.
+ - Intel-based processors 
 
-Workarounds for Windows Server ARM64 compatiblity: 
+### Workarounds for Windows Server ARM64 compatiblity on MacOS: 
 
 - workaround 1: using UTM to emulate Windows Server 2019 so it can interact with your virtualized Windows pro 10 or 11 client. Window 11 is used for this example. 
 
@@ -22,7 +23,7 @@ Workarounds for Windows Server ARM64 compatiblity:
   - using UUP Dump to get an ARM64 iso (alot of technical steps involved that may be overwhelming and confusing)
     - involves installation of multi-protocol & multi-source command-line download utility [aria2](https://aria2.github.io/)
     - There are builds of 2025 Windows Server with ARM64 which can also be looked into
-      - This forum post goesinto more details https://forums.macrumors.com/threads/windows-server-2025-arm-on-mac.2423766/ 
+      - This forum post goes into more details https://forums.macrumors.com/threads/windows-server-2025-arm-on-mac.2423766/ 
    
 
 
@@ -48,7 +49,7 @@ Resources for the workarounds:
 ## 🛠 Requirements
 
 ### 📅 Software Downloads
-- 🔗 [VMware Workstation Pro](https://www.vmware.com/products/workstation-pro.html)
+- 🔗 [VMware Workstation Pro and VMware Fusion](https://www.vmware.com/products/workstation-pro.html)
 - 🔗 [UTM for MacOS Operating Systems](https://getutm.app/)
 - 🔗 [Windows Server 2019 Evaluation ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2019)  
 - 🔗 [Windows 10 Evaluation ISO](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)  
@@ -66,6 +67,9 @@ This project is divided into two parts:
 
 ### 🔧 [Lab Setup Guide](./lab-setup-guide.md)
 🚧 Set up your lab environment from scratch using VMware Workstation Pro.
+
+### 🔧 [Lab Setup Guide for MacOS workaround 1](./silicon-mac-lab-setup-guide.md)
+🚧 Set up your lab environment on your MacOS from scratch using VMware Fusion.
 
 ### 🎯 [Active Directory Tasks Walkthrough](./ad-basic-tasks.md)
 💡 Practice managing users, groups, OUs, and GPOs!
