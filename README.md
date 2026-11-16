@@ -5,15 +5,15 @@ Spin up your own mini enterprise IT environment — all from a single machine.
 This beginner-friendly lab walks you through installing and configuring Active Directory, DNS, DHCP, Group Policy, and more using VMware Workstation Pro. No prior Virtual Machine or Active Directory experience needed.
 
 
-## 🍎💻 Lab Setup using Silicon M1-M4 MacOS
+## 🍎💻 Lab Setup using Apple Silicon M1,M2,M3,M4 MacOS
 
 Hypervisors that can be used doesn't matter (some have different caveats and features)
  - VirtualBox or VMWare Fusion, you can use either one
  - VMWare Fusion offers weirdly easier way to get a Windows 11 pro or enterprise ISO file that works for MacOS.
 
-Anyone using MacOS computers after Apple transitioned from Intel-based processors to Silicon ARM M1-M4 will face troubles running the Windows Server 19 Evaluation ISO file
- - Users have requested for an ARM-compatible iso file but isn't available in Windows Evaluation Center or Insider Program.
- - Intel-based processors 
+Anyone using MacOS computers after Apple transitioned from Intel-based processors to Silicon ARM M1-M4 will face troubles running the Windows Server 19 Evaluation ISO file which uses x64/AMD64 architecture
+ - ARM-compatible iso file but isn't available in Windows Evaluation Center or Insider Program at the moment.
+ - Older Apple Intel-based Mac are able to work with the x64/AMD64  
 
 ### Workarounds for Windows Server ARM64 compatiblity on MacOS: 
 
@@ -28,8 +28,10 @@ Anyone using MacOS computers after Apple transitioned from Intel-based processor
 
 
 Resources for the workarounds:
-- https://techcommunity.microsoft.com/discussions/windows11/is-uup-dump-a-legitimate-tool-for-windows-iso-download/4547467/replies/4547479
+- [UUP dump for Windows ISO](https://techcommunity.microsoft.com/discussions/windows11/is-uup-dump-a-legitimate-tool-for-windows-iso-download/4547467/replies/4547479)
 - https://4sysops.com/archives/download-the-windows-server-2025-iso-for-intel-x64-and-arm-arm64/
+- [Another Active Directory Lab that is tailored specifically for macOS,uses Windows Server 2025 ARM and Windows 11 VMs on Parallels Desktop (concepts easily transfer to UTM or VMware Fusion)]
+  - [Repo URL 🔗](https://github.com/Sincerely-Christian/Active-Directory-Home-Lab/)
 
 
 ---
